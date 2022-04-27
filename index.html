@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <script src="./scripts/jquery-3.6.0.min.js"></script>
+    <!-- Навигация -->
+    <header>
+      <div class="header-wraper">
+        <div class="header-flex">
+          <img src="./images/web-logo.png" alt="Logo" />
+          <nav>
+            <a href="index.html" class="activl">Главная</a>
+            <a href="searchjob.html">Найти услугу</a>
+            <a href="projects.html">Проекты</a>
+            <a href="thanks4.html">Благодарности</a>
+            <a href="aboutus.html">О нас</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Приветствие -->
+    <section id="welcome">
+      <div class="welcome-wraper">
+        <div class="inner">
+          <div class="welcome-flex">
+            <div class="welcome-text">
+              <h1>
+                Сздём првй<br />
+                сйт
+              </h1>
+              <div class="welcome-details">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Obcaecati corrupti, tempore quis id necessitatibus laborum
+                  nobis? Aperiam similique esse reiciendis, mollitia repudiandae
+                  expedita dolor neque laborum quibusdam necessitatibus sed ad?
+                </p>
+              </div>
+              <button class="welcome-button">Подробнее</button>
+            </div>
+            <img
+              src="./images/welcome-image.png"
+              alt="Крипа"
+              width="480px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Карточки с услугами -->
+    <section id="services">
+      <div class="services-wraper">
+        <div class="inner">
+          <div class="services-text">
+            <h1>Наши услуги</h1>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto fugiat perferendis veniam doloribus. Fuga officiis ad,
+              sit, soluta quaerat nesciunt sequi veniam obcaecati facere
+              repellendus vel dolore debitis, itaque voluptatem.
+            </p>
+          </div>
+          <div class="services-cards">
+            <div class="cards-row">
+              <div class="card">
+                <img src="./images/services-icon.png" alt="Иконка сервиса" />
+                <div class="card-text">
+                  <h1>Card1</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati quam ex optio recusandae nam est! Sed magnam
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/services-icon.png" alt="Иконка сервиса" />
+                <div class="card-text">
+                  <h1>Card2</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Unde, veniam aperiam, rerum nobis alias molestiae ea rem
+                    quibusdam
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/services-icon.png" alt="Иконка сервиса" />
+                <div class="card-text">
+                  <h1>Card3</h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempore aliquam nobis eveniet ad ea. Placeat possimus
+                    ducimus
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-row hidden expandable">
+              <div class="card">
+                <img src="./images/services-icon.png" alt="Иконка сервиса" />
+                <div class="card-text">
+                  <h1>Card1</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati quam ex optio recusandae nam est! Sed magnam
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/services-icon.png" alt="Иконка сервиса" />
+                <div class="card-text">
+                  <h1>Card2</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Unde, veniam aperiam, rerum nobis alias molestiae ea rem
+                    quibusdam
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/services-icon.png" alt="Иконка сервиса" />
+                <div class="card-text">
+                  <h1>Card3</h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempore aliquam nobis eveniet ad ea. Placeat possimus
+                    ducimus
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button-container"></div>
+          <button class="default expand-btn">Больше</button>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- Проекты -->
+    <section id="projects">
+      <div class="projects-wraper">
+        <div class="inner">
+          <div class="project-container">
+           <div class="project1">
+             <img src="./images/project-image.png" alt="">
+             <div class="project-text">
+               <h1>Проект№1</h1>
+               <hr>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                 elit. Architecto, sapiente! Iusto pariatur ut tempo
+                 ribus laboriosam aspernatur? Accusamus placeat beata
+                 e repudiandae repellendus ipsum enim rem sequi cum 
+                 voluptatibus. Ab, nulla. Animi.</p>
+                 <button class="default">Подробнее</button>
+             </div>
+           </div>
+           <div class="project2">
+             <img src="./images/project-app.png" alt="">
+             <div class="project-text">
+              <h1>Проект№2</h1>
+              <hr>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                 elit. Architecto, sapiente! Iusto pariatur ut tempo
+                 ribus laboriosam aspernatur? Accusamus placeat beata
+                 e repudiandae repellendus ipsum enim rem sequi cum 
+                 voluptatibus. Ab, nulla. Animi.</p>
+                 <button class="default">Скачать<i class="fa-solid fa-arrow-down-long" style="margin-left: 5px;"></i></button>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Новости -->
+    <section id="news">
+     <div class="news-wrraper">
+       <div class="inner">
+         <div class="news-text">
+           <h1>
+             Узнай о наших обновлениях
+           </h1>
+           <hr>
+        </div>
+        <div class="news-cards">
+          <div class="cards-row">
+            <div class="card">
+              <img src="./images/article1.jpg" alt="">
+              <div class="card-info">
+                <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperior
+                 es recusandae perspiciatis eaque aut possimus!</p>
+                 <a href="#">Читать дальше <i class="fa-solid fa-arrow-right-long" style="margin-left: 5px;"></i></a>
+                </div>
+            </div>
+            <div class="card">
+             <img src="./images/article2.jpg" alt="">
+              <div class="card-info">
+                <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperior
+                 es recusandae perspiciatis eaque aut possimus!</p>
+                 <a href="#">Читать дальше <i class="fa-solid fa-arrow-right-long" style="margin-left: 5px;"></i></a>
+                </div>></div>
+            <div class="card">
+              <img src="./images/article3.jpg" alt="">
+              <div class="card-info">
+                <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperior
+                 es recusandae perspiciatis eaque aut possimus!</p>
+                 <a href="#">Читать дальше <i class="fa-solid fa-arrow-right-long" style="margin-left: 5px;"></i></a>
+                </div>
+          </div>
+        </div>
+        <div class="button-container">
+          <button class="default">Посмотреть всё</button>
+        </div>
+        </div>
+       </div>
+     </div>
+    </section>
+    <!-- Видео -->
+    <section id="video">
+      <div class="video-wrapper">
+        <div class="inner">
+          <div class="video-container">
+            <div class="points-container1">
+              <img src="./images/points.png" alt="">
+            </div>
+            <div class="video-element">
+              <div class="video-description">
+                <h1>Что думают наши пользователи</h1>
+                <span class="play-button">
+                   <img src="./images/play-button.png" alt="play-video"><p>Play video</p>
+                </span>
+              </div>
+            </div>
+            <div class="points-container2">
+              <img src="./images/points.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Контакты -->
+    <section id="contact">
+      <div class="contact-wrapper">
+        <div class="inner">
+          <div class="contact-text">
+            <h1>Свяжитесь с нами</h1>
+            <p>Новости, обновления, вкусности - будьте на связи!</p>
+          </div>
+          <div class="contact-form">
+            <div class="contact-container">
+              <div class="input-container">
+                <input type="" placeholder="E-mail">
+              </div>
+              <div class="input-button">
+                Отправить
+              </div>
+            </div>
+          </div>
+          <p style="text-align: center;">Ваши данные будут в безопасности</p>
+        </div>
+      </div>
+    </section>
+    <!-- Подвал -->
+    <Footer class="footer">
+      <div class="footer-wrapper">
+        <div class="inner">
+          <div class="footer-flex">
+            <div class="description">
+              <div class="footer-container">
+                <img src="./images/footer-logo.png" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                   Dignissimos sint sit, maxime vero dolorum consequatur, labore
+                    ducimus eligendi sed eius temporibus fugit delectus quo. In 
+                    ipsam soluta et debitis alias!</p>
+                <p>Типо все права сохранены</p>
+              </div>
+            </div>
+            <!-- Компания -->
+            <div class="links">
+              <div class="footer-container">
+              <h2>Компания</h2>
+              <ul>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Найти услугу</a></li>
+                <li><a href="#">Проекты</a></li>
+               <li><a href="#">Главная</a></li>
+               </ul>
+              </div>
+            </div>
+            <!-- Регион -->
+            <div class="links">
+              <div class="footer-container">
+              <h2>Регион</h2>
+              <ul>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Найти услугу</a></li>
+                <li><a href="#">Проекты</a></li>
+               <li><a href="#">Главная</a></li>
+               </ul>
+              </div>
+            </div>
+            <!-- Помощь -->
+            <div class="links">
+              <div class="footer-container">
+              <h2>Помощь</h2>
+              <ul>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Найти услугу</a></li>
+                <li><a href="#">Проекты</a></li>
+               <li><a href="#">Главная</a></li>
+               </ul>
+              </div>
+            </div>
+          </div>
+          <div class="points-container3"><img src="./images/points.png" alt=""></div>
+        </div>
+      </div>
+    </Footer>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
