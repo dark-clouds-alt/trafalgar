@@ -4,8 +4,41 @@ body {
   padding: 0;
   font-family: "Mulish", sans-serif;
 }
+.banner-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+.banner-text {
+  text-align: center;
+  padding: 200px 0;
+}
+.primary {
+  background-color: white;
+  color: black;
+}
 header {
   padding: 25px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(103, 195, 243, 1)),
+    color-stop(100%, rgba(90, 152, 242, 1)),
+    to(rgba(0, 212, 255, 1))
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(103, 195, 243, 1) 0%,
+    rgba(90, 152, 242, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(103, 195, 243, 1) 0%,
+    rgba(90, 152, 242, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white !important;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -32,18 +65,17 @@ header img {
 }
 header nav a {
   margin-left: 45px;
-  color: rgb(0, 0, 0);
-  opacity: 0.5;
+  color: rgb(255, 255, 255);
   text-decoration: none;
+  font-weight: 700;
 }
 header nav a :first-child {
   margin-left: 0px;
   text-decoration: none;
 }
 .activl {
-  color: black;
+  color: rgb(255, 255, 255);
   opacity: 1;
-  font-weight: 700;
 }
 .welcome-wraper {
   width: 70%;
@@ -148,7 +180,7 @@ p {
   margin-bottom: 25px;
 }
 .card:hover {
-  transform: scale(1, 1);
+  transform: scale(1.1);
   z-index: 2;
 }
 button {
@@ -524,8 +556,8 @@ ul {
   font-size: larger;
   cursor: pointer;
 }
-.header-bars {
-  color: white;
+.fa {
+  color: rgba(103, 195, 243, 1);
 }
 .mobile-logo {
   display: none;
@@ -625,7 +657,7 @@ ul {
     -ms-flex-align: center;
     align-items: center;
   }
-  .header-bars {
+  .fa-bars {
     display: block;
     font-size: 1.5rem;
     color: white;
@@ -657,5 +689,8 @@ ul {
       rgba(90, 152, 242, 1) 100%,
       rgba(0, 212, 255, 1) 100%
     );
+  }
+  .banner-wrapper {
+    width: 100%;
   }
 }
